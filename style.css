@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+}
+
+/*ARRUMAR VERSAO TELA CHEIA
+  https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb*/
+
+html,
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  background-color: #f8f2a3a6;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: #bdb76b;
+  display: flex;
+  align-content: center;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  justify-content: center;
+  border-radius: 35px;
+  width: 30vw;
+  height: 65vh;
+}
+
+ul {
+  background-color: #eee898;
+  margin: 5%;
+  padding: 10%;
+  text-align: center;
+  list-style: none;
+  border-radius: 25px;
+  justify-content: center;
+}
+
+button {
+  margin: 10px;
+  padding: 1rem;
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgb(245, 255, 186);
+  font-family: 'Poppins', sans-serif;
+  width: 10rem;
+  height: 10%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(230, 240, 173, 0.89);
+  transition-duration: 1s;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+  max-width: 70%;
+}
+
+@media (max-width: 1260px) {
+  html,
+  body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #f8f2a3a6;
+    color: #2c2a13;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  body {
+    background-color: #bdb76b;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 35px;
+    width: 380px;
+    height: 610px;
+  }
+
+  ul {
+    background-color: #eee898;
+    margin: 5%;
+    padding: 10%;
+    text-align: center;
+    list-style: none;
+    border-radius: 25px;
+    justify-content: center;
+  }
+
+  button {
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgb(245, 255, 186);
+    font-family: 'Poppins', sans-serif;
+    width: 10rem;
+    height: 10%;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgba(230, 240, 173, 0.89);
+    transition-duration: 1s;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+    max-width: 70%;
+  }
+}
